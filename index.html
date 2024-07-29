@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Image Splitter Tool - Split Images Easily</title>
+	<meta name="description"
+		content="Use our Image Splitter Tool to split large images into smaller ones easily. Upload multiple images and download the split versions quickly.">
+	<meta name="keywords" content="image splitter, split images, image processing, upload images, download images">
+	<link rel="stylesheet" href="style.css">
+	<script src="app.js" defer></script>
+</head>
+
+<body>
+	<header>
+		<h1>Image Splitter Tool</h1>
+		<p>Splitting a large number of images may result in browser performance issues.</p>
+		<p>This tool works client-side only; it does NOT store images in any way.</p>
+	</header>
+
+	<main>
+		<section>
+			<h2>Upload Your Images</h2>
+			<input type="file" id="fileInput" accept="image/*" multiple>
+			<button id="splitBtn" disabled>Split Images Vertically</button>
+			<button id="downloadBtn" disabled>Download Split Images</button>
+		</section>
+
+		<section id="thumbnails">
+			<h2>Image Thumbnails</h2>
+			<!-- Thumbnails will be displayed here -->
+		</section>
+	</main>
+
+	<footer>
+		<p>&copy; 2024 Image Splitter Tool. All rights reserved.</p>
+	</footer>
+
+
+</body>
+
+</html>
