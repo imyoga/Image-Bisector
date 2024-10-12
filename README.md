@@ -1,6 +1,6 @@
 # Image Splitter Tool
 
-[Visit the Image Splitter Tool](https://image-divider.netlify.app/)
+[[Visit the Image Splitter Tool](https://image-divider.netlify.app/)](https://multi-image-spitter.netlify.app/)
 
 ## Overview
 
